@@ -306,7 +306,7 @@ this will not affect the main conclusions from our calculations, only quantitati
 
 As illustrated in Fig.~\ref{fig:photocycle}, we assume that $\ce{FADH^{.}}$ is the signalling state triggering the conformational
 changes in Cry leading to phosphorylation or other further signalling steps. Because we are interested in the effects relative to
-the case where there is no magnetic field (MF), we take the difference, and integrate over time to find the accumulated 
+the case where there is no magnetic field (MF), we take the difference, and integrate over time to find the accumulated
 concentration of our signaling state. We will refer to this as the accumulated difference, denoted by $\Delta [\ce{FADH^{.}}]$,
 which is calculated as:
 \begin{equation}
@@ -318,14 +318,15 @@ From the accumulated difference we can use the Hill equation to describe the pho
 	p_{bound} = \frac{\left( \frac{[L]}{K_{d}} \right)^{\textsc{n}}}{1 + \left( \frac{[L]}{K_{d}} \right)^{\textsc{n}}},
 	\label{eq:phosph}
 \end{equation}
-where N is the Hill coefficient, chosen to be 16, which corresponds to the number of phosphorylation sites if the binding is
-entirely cooperative. \cite{Phillips2009} It has been shown \cite{Liu2017} that there are as many as 24 phosphorylation sites for
-AtCry. $K_{\textsc{d}}$ is a dissociation constant that sets the concentration at which half of the receptors are phosphorylated.
-Lastly, [L] is the ligand concentration, which corresponds to our accumulated difference, $\Delta [\ce{FADH^{.}}]$. A high binding
-probability is indicative of an observable magnetic field effect, which we take as our ``on'' state.
+We choose the Hill coefficient, $N$ to be 16, which corresponds to the number of phosphorylation sites if the binding is entirely
+cooperative. \cite{Phillips2009} It has been shown \cite{Liu2017} that there are as many as 24 phosphorylation sites for AtCry.
+$K_{\textsc{d}}$ is a dissociation constant that sets the concentration at which half of the receptors are phosphorylated. Lastly,
+[L] is the ligand concentration, which we set to correspond to the accumulated signalling state concentration difference, $\Delta
+[\ce{FADH^{.}}]$. A high binding probability is indicative of an observable magnetic field effect, which we take as our ``on''
+state.
 As N becomes sufficiently high, the probability curve approaches a switching mechanism of on/off that allows us to identify the
-presence of a magnetic field effect. That is, there will be some cutoff concentration (which is set by $K_{\textsc{d}}$, above
-which the molecule will be phosphorylated, and unphosphorylated otherwise. We will later choose this value to be consistent with
+presence of a magnetic field effect. That is, there will be some cutoff concentration (which is set by $K_{\textsc{d}}$, above which
+the molecule will be phosphorylated, and unphosphorylated otherwise. We will later choose this value to be consistent with
 experimental observation.
 
 In all magnetic situations considered, the light is on for some time $t_{\textsc{l}}$, and then off for some time $t_{\textsc{d}}$,
