@@ -1,0 +1,8 @@
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*Strausser2019.pdf
+*.gz
+!Strausser2019.tex
